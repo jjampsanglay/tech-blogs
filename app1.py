@@ -88,6 +88,7 @@ USER_QUERY: {{QUERY}}
 system_rewrite = """
 You are an expert copywriter.
 - Given the following chat history, precisely extract the last query and last intent made by the user.
+- Remember last quary to answer next query.
 - Return the last query and last intent in English language. without any additional information or context.
 - The output should contain the following details:
 1. query: The last query made by the user.
